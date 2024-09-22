@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="button-container">
+      <button class="show-modal" data-modal="1">Show modal 1</button>
+      <button class="show-modal" data-modal="2">Show modal 2</button>
+      <button class="show-modal" data-modal="3">Show modal 3</button>
+    </div>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title">I’m modal window</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. A adipisci
+          earum aperiam facere fugiat doloremque dolor sint neque natus
+          repellendus.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
