@@ -1,6 +1,6 @@
 
-const modal = document.getElementById('modal');
-const modalTitle = document.getElementById('modal-title');
+const modal = document.querySelector('#modal');
+const modalTitle = document.querySelector('#modal-title');
 const closeModal = document.querySelector('.close');
 const buttons = document.querySelectorAll('.show-modal');
 const buttonContainer = document.querySelector('.button-container');

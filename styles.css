@@ -1,5 +1,5 @@
 body {
-    background-color: #ffe6e6; /* roz pal */
+    background-color: #ffe6e6;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ button:hover {
     background-color: #ff6666;
 }
 
-/* Stiluri pentru modal */
+/* Styles for modal */
 .modal {
     position: fixed;
     z-index: 2;
@@ -62,12 +62,12 @@ button:hover {
     cursor: pointer;
 }
 
-/* Ascundere modal */
+/* Hide the modal */
 .hidden {
     display: none;
 }
 
-/* Estompare butoane când modalul este activ */
+/* Blur buttons when modal is active */
 .blur {
     filter: blur(2px);
 }
